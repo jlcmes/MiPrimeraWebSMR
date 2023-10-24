@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<!-- CABECERA -->
+<head>
+	<title>My first website</title>
+	<style>
+table.purpleHorizon {
+  border: 4px solid #792396;
+  background-color: #555555;
+  width: 350px;
+  text-align: center;
+  border-collapse: collapse;
+}
+table.purpleHorizon td, table.purpleHorizon th {
+  border: 1px solid #555555;
+  padding: 5px 2px;
+}
+table.purpleHorizon tbody td {
+  font-size: 13px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+table.purpleHorizon tr:nth-child(even) {
+  background: #CC3BFC;
+}
+table.purpleHorizon thead {
+  background: #792396;
+  border-bottom: 4px solid #792396;
+}
+table.purpleHorizon thead th {
+  font-size: 19px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: left;
+  border-left: 2px solid #792396;
+}
+table.purpleHorizon thead th:first-child {
+  border-left: none;
+}
+
+table.purpleHorizon tfoot {
+  font-size: 13px;
+  font-weight: bold;
+  color: #FFFFFF;
+  background: #CE3CFF;
+  background: -moz-linear-gradient(top, #da6dff 0%, #d34fff 66%, #CE3CFF 100%);
+  background: -webkit-linear-gradient(top, #da6dff 0%, #d34fff 66%, #CE3CFF 100%);
+  background: linear-gradient(to bottom, #da6dff 0%, #d34fff 66%, #CE3CFF 100%);
+  border-top: 5px solid #792396;
+}
+table.purpleHorizon tfoot td {
+  font-size: 13px;
+}
+table.purpleHorizon tfoot .links {
+  text-align: right;
+}
+table.purpleHorizon tfoot .links a{
+  display: inline-block;
+  background: #792396;
+  color: #FFFFFF;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
+	</style>
+</head>
+
+<!-- CUERPO -->
+<body>
+	<h1>My first website</h1>
+	<h2>Este es un h2</h2>
+	<h3>Este es el h3</h3>
+	<p>Greetings everyone! This is part a paragraph</p>
+
+<table class="purpleHorizon">
+<thead>
+<tr>
+<th>head1</th>
+<th>head2</th>
+<th>head3</th>
+<th>head4</th>
+</tr>
+</thead>
+<tfoot>
+<tr>
+<td colspan="4">
+<div class="links"><a href="#">&laquo;</a> <a class="active" href="#">1</a> <a href="#">2</a> <a href="#">3</a> <a href="#">4</a> <a href="#">&raquo;</a></div>
+</td>
+</tr>
+</tfoot>
+<tbody>
+<tr>
+<td>cell1_1</td><td>cell2_1</td><td>cell3_1</td><td>cell4_1</td></tr>
+<tr>
+<td>cell1_2</td><td>cell2_2</td><td>cell3_2</td><td>cell4_2</td></tr>
+<tr>
+<td>cell1_3</td><td>cell2_3</td><td>cell3_3</td><td>cell4_3</td></tr>
+<tr>
+<td>cell1_4</td><td>cell2_4</td><td>cell3_4</td><td>cell4_4</td></tr>
+</tbody>
+</tr>
+</table>
+
+</body>
+
+</html>
